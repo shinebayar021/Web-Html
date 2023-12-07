@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-left: 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #888888;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #ffff;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grid-container nav {
+    flex-basis: calc(33.33% - 1rem);
+    margin-left: 30%;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #888888;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0 1rem 1rem 0;
+}
+
+footer article {
+    flex-basis: calc(50% - 1rem);
+    margin-bottom: 1rem;
+    font-size: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border: none;
+}
+
+.footer-icons a {
+    margin: 0 8px;
+}
+
+.footer-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.copyright {
+    color: #888888;
+    font-size: 12px;
+}
+
+address a {
+    margin-right: 1rem;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.Uria {
+    margin-bottom: 2rem;
+    border: 1px solid #333;
+    background-color: #292929;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Uria article {
+    flex: 1;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.Uria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.Uria h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Uria p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+@media only screen and (max-width: 600px) {
+    .Uria article {
+        width: 100%;
+    }
+
+    .Uria h2 {
+        font-size: 1.2rem;
+    }
+
+    .Uria p {
+        font-size: 0.9rem;
+    }
+}
+
+
+section {
+    margin-bottom: 2rem;
+    border: 1px solid #333;
+    padding: 1rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+section article {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+section h2, section p {
+    color: #fff;
+}
+strong {
+    display: block;
+    margin: 0 auto 1rem;
+    text-align: center;
+}
+
+.component-3 {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+.article-text {
+    position: absolute;
+    left: 1.77%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+    margin-left: 5%;
+
+    color: #E0E79D;
+}
+.center-image {
+    text-align: center;
+}
+.backgroundImage {
+    background-image: url('suzuki_photos/selbeg_bag.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 100vh;
+    margin-left: 15%;
+}
+
+.backgroundImage .ff {
+    margin-top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 0;
+    width: 96%;
+    height: 23%;
+    padding: 20px;
+}
+
+.backgroundImage .ff h1 {
+    font-size: 36px;
+}
+
+.backgroundImage .ff .text {
+    font-size: 15px;
+    color: #888888;
+    font-weight: bold;
+}
+
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #292929;
+}
+
+.stat article {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.stat article h2{
+    color: #E0E79D;
+}
+
+.stat article p{
+    font-size: small;
+}
+
+.text-section {
+    background-color: #292929;
+    padding: 2rem;
+}
+
+.text-section h1 {
+    color: #ffffff;
+}
+
+#shortText, #fullText {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+#seeMoreText, #seeLessText {
+    cursor: pointer;
+    color: rgba(224, 231, 157, 0.2);
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+#seeMoreText:hover, #seeLessText:hover {
+text-decoration: underline;
+color: rgba(224, 231, 157, 1); /* Adjusted color with full opacity on hover */
+}
